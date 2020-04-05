@@ -1,40 +1,18 @@
 /*les photo a redimensionner via photoshop pour eviter pb pixel*/
 
 body {
-    background-image:url(../img/fond.png);
+    background-image: url(../img/fond.png);
     background-attachment: fixed;
     background-size: cover;
     margin: 0;
     font-family: 'Montserrat', sans-serif;
 }
 
-.opacity:hover{
+.opacity:hover {
     opacity: 0.9;
 }
 
-.menu{
-    position: fixed;
-    top;0px;
-    width: 100%;
-    background-color: #e5e5e5;
-    height: 100px;
-    display: none;
-    border-radius: 10px;
-}
-
-.menu2{
-    position: fixed;
-    top; 0px;
-    width: 100%;
-    background-color: #e5e5e5;
-    height: 102px;
-    display: flex;
-    border-radius: 10px;
-    top: -15px;
-    z-index: 1;
-}
-
-.onglet{
+.onglet {
     position: relative;
     left: 8%;
     display: inline-flex;
@@ -45,7 +23,7 @@ body {
     margin-top: 25px;
 }
 
-.menu-act{
+.menu-act {
     position: fixed;
     top: 5px;
     left: 5px;
@@ -55,41 +33,23 @@ body {
     border-radius: 10px;
 }
 
-.menu-act2{
-    display: flex;
-    position: fixed;
-    top: 0px;
-    left: 0px;
-    background-color: #e5e5e5;
-    height: 12%;
-    width: 6%;
-    border-radius: 10px;
-    z-index: 2;
+.menu-act:hover {
+    cursor: pointer;
 }
 
 .triangle {
     position: absolute;
-    top: 10px;
-    left: 6px;
+    top: 7px;
+    left: 10px;
     width: 0;
     height: 0;
-    border-left: 12px solid transparent;
-    border-right: 12px solid transparent;
-    border-top: 20px solid #8e8e8e;
+    border-bottom: 12px solid transparent;
+    border-top: 12px solid transparent;
+    border-left: 20px solid #8e8e8e;
 }
 
-.triangle2 {
-    width: 0;
-    height: 0;
-    border-left: 18px solid transparent;
-    border-right: 18px solid transparent;
-    border-top: 30px solid #8e8e8e;
-    margin: auto;
-    margin-top: 30px;
-    transform: rotate(180deg);
-}
 
-#title{
+#title {
     margin-left: auto;
     margin-right: auto;
     background-color: white;
@@ -97,18 +57,18 @@ body {
     height: 150px;
     margin-top: 75px;
     margin-bottom: 100px;
-    
+
 }
 
-#space{
+#space {
     margin-left: auto;
     margin-right: auto;
     background-color: white;
     width: 70%;
-    
+
 }
 
-.title-block{
+.title-block {
     margin-left: auto;
     margin-right: auto;
     background-color: #8e8e8e;
@@ -119,7 +79,7 @@ body {
 
 }
 
-.txt-title{
+.txt-title {
     text-align: center;
     font-size: 3.2em;
     position: relative;
@@ -127,7 +87,7 @@ body {
     letter-spacing: 10px;
 }
 
-.underline-title{
+.underline-title {
     background-color: black;
     position: relative;
     bottom: 36px;
@@ -135,26 +95,26 @@ body {
     width: 45%;
 }
 
-.creation-title{
+.creation-title {
     text-align: center;
     padding-top: 120px;
     text-decoration: underline;
     font-size: 3em;
 }
 
-.araki{ 
+.araki {
     float: left;
     margin: -9% -2% -9% -2%;
 }
 
-.creation-txt{
+.creation-txt {
     font-size: 1.5em;
     margin-top: 10%;
     margin-right: 5%;
     margin-left: 5%;
 }
 
-.line{
+.line {
     margin-top: 100px;
     background-color: #8e8e8e;
     border: 1px solid #8e8e8e;
@@ -162,22 +122,22 @@ body {
     opacity: 0.5;
 }
 
-.presentation-title{
+.presentation-title {
     text-align: center;
     padding-top: 50px;
     text-decoration: underline;
     font-size: 3em;
 }
 
-#family{
+#family {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    max-width : 90%;
+    max-width: 90%;
     height: auto;
 }
 
-.presentation-txt{
+.presentation-txt {
     font-size: 1.5em;
     text-align: center;
     margin-top: 5%;
@@ -185,16 +145,16 @@ body {
     margin-left: 5%;
 }
 
-.container-portagoniste{
+.container-portagoniste {
     display: flex;
     flex-wrap: wrap;
 }
 
-.figure-protagoniste{
-    flex:1 1 10%;
+.figure-protagoniste {
+    flex: 1 1 10%;
 }
 
-.protagoniste-title{
+.protagoniste-title {
     text-align: center;
     padding-top: 50px;
     padding-bottom: 60px;
@@ -202,24 +162,24 @@ body {
     font-size: 3em;
 }
 
-.protagoniste-img{
+.protagoniste-img {
     margin-left: 8%;
     margin-right: 5%;
     margin-bottom: 10%;
 }
 
-.protagoniste-img:hover{
+.protagoniste-img:hover {
     transform: scale(1.1);
 }
 
-.figcaption-protagoniste{
+.figcaption-protagoniste {
     margin-left: 45px;
     margin-top: -20px;
     text-decoration: underline;
     font-size: 1.5em;
 }
 
-.sites-title{
+.sites-title {
     text-align: center;
     padding-top: 50px;
     padding-bottom: 60px;
@@ -227,64 +187,64 @@ body {
     font-size: 3em;
 }
 
-.crunchyroll{
+.crunchyroll {
     position: relative;
     top: -40px;
     right: 100px;
     float: right;
-    max-width : 100%;
+    max-width: 100%;
     height: auto;
 }
 
-.crunchyroll:hover{
+.crunchyroll:hover {
     transform: scale(1.1);
 }
 
-.site-txt-anime{
+.site-txt-anime {
     font-size: 1.5em;
     text-decoration: underline;
     margin-left: 15%;
     margin-top: 5%;
 }
 
-.stairway{
+.stairway {
     float: right;
     position: relative;
-    max-width : 100%;
+    max-width: 100%;
     height: auto;
     right: 90px;
     top: -30px;
 }
 
-.stairway:hover{
+.stairway:hover {
     transform: scale(1.1);
 }
 
-.site-txt-manga{
+.site-txt-manga {
     font-size: 1.5em;
     text-decoration: underline;
     margin-left: 15%;
     margin-top: 5%;
 }
 
-.bloc-fin{
+.bloc-fin {
     background-color: #4b4b4b;
     height: 140px;
     padding-top: 15px;
 }
 
-.txt-fin{
+.txt-fin {
     text-align: center;
     font-size: 1.5em;
     letter-spacing: 3px;
 }
 
-.line-fin{
+.line-fin {
     background-color: black;
     border: 1px solid black;
 }
 
-.txt-fin-fin{
+.txt-fin-fin {
     text-align: center;
     font-size: 1em;
     margin-top: -3px;
@@ -292,32 +252,32 @@ body {
 
 .acreation {
     color: black;
-	text-decoration: none;
+    text-decoration: none;
 }
 
 .apresentation {
     color: black;
-	text-decoration: none;
+    text-decoration: none;
 }
 
 .aprotagoniste {
     color: black;
-	text-decoration: none;
+    text-decoration: none;
 }
 
 .asites {
     color: black;
-	text-decoration: none;
+    text-decoration: none;
 }
 
 .amention {
     color: black;
-	text-decoration: none;
+    text-decoration: none;
 }
 
 .aconstruct {
     color: black;
-	text-decoration: none;
+    text-decoration: none;
 }
 
 .slider {
@@ -329,66 +289,170 @@ body {
 
 .dodo1 {
     margin-left: 7%;
-    max-width : 100%;
+    max-width: 100%;
     height: auto;
 }
 
-.dodo1:hover{
-    transform: rotate(10deg);
+.dodo1, .dodo2{
+    animation: shake 0.5s;
+    animation-iteration-count: infinite;
 }
 
 .dodo2 {
     margin-right: 7%;
-    max-width : 100%;
+    max-width: 100%;
     height: auto;
 }
 
-.dodo2:hover{
-    transform: rotate(-10deg);
+.sidenav {
+    height: 100%;
+    width: 0;
+    /*width a changer sur le fichier javascript*/
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    overflow-x: hidden;
+    padding-top: 60px;
+    transition: 0.5s;
+    background: rgba(104, 101, 101, 0.95);
+}
+
+.sidenav a {
+    padding: 8px 8px 30px 25px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #000000;
+    display: block;
+}
+
+.sidenav a:hover {
+    color: #ffffff;
+}
+
+.sidenav .croix {
+    position: absolute;
+    top: 0;
+    right: 15px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+.line-menu {
+    margin-top: -10px;
+    background-color: #000000;
+    border: 1px solid #000000;
+    width: 80%;
+}
+
+.menu-deroulant {
+    position: relative;
+    display: inline-block;
+}
+
+.deroule-contenu {
+    display: none;
+    position: absolute;
+    left: 40px;
+    top: 50px;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.deroule-contenu a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.deroule-contenu a:hover {
+    background-color: rgb(148, 146, 146);
+}
+
+.menu-deroulant:hover .deroule-contenu {
+    display: block;
+}
+
+
+
+@media screen and (max-height: 450px) {
+    .sidenav {
+        padding-top: 15px;
+    }
+
+    .sidenav a {
+        font-size: 18px;
+    }
 }
 
 @media screen and (min-width:768px) {
-  .menu-act{
-    height: 60px;
-    width: 60px;
-  }
-  .triangle{
-    top: 18px;
-    left: 13px;
-    border-left: 18px solid transparent;
-    border-right: 18px solid transparent;
-    border-top: 30px solid #8e8e8e;
-  }
+    .menu-act {
+        height: 60px;
+        width: 60px;
+    }
+
+    .triangle {
+        top: 12px;
+        left: 17px;
+        border-top: 18px solid transparent;
+        border-bottom: 18px solid transparent;
+        border-left: 30px solid #8e8e8e;
+    }
 }
 
-@media screen and (max-width: 740px){
-    #space, #title{
+@media screen and (max-width: 740px) {
+
+    #space,
+    #title {
         width: 100%;
     }
-    .araki{
+
+    .araki {
         float: none;
     }
 }
 
 @media screen and (max-width: 1300px) {
-    .crunchyroll, .stairway{
+
+    .crunchyroll,
+    .stairway {
         position: static;
         margin-right: 40px;
     }
-    .menu2{
+
+    .menu2 {
         height: 200px;
     }
 }
 
-@media screen and (max-width: 640px){
-    
-    .ongletMobile{
+@media screen and (max-width: 640px) {
+
+    .ongletMobile {
         display: flex;
         flex-direction: column;
         align-items: center;
     }
-    
-    .menu2{
+
+    .menu2 {
         height: 420px;
     }
 }
+
+/*------------------------animation pour images---------------------------*/
+
+@keyframes shake {
+    0% { transform: translate(1px, 1px) rotate(0deg); }
+    10% { transform: translate(-1px, -2px) rotate(-1deg); }
+    20% { transform: translate(-3px, 0px) rotate(1deg); }
+    30% { transform: translate(3px, 2px) rotate(0deg); }
+    40% { transform: translate(1px, -1px) rotate(1deg); }
+    50% { transform: translate(-1px, 2px) rotate(-1deg); }
+    60% { transform: translate(-3px, 1px) rotate(0deg); }
+    70% { transform: translate(3px, 1px) rotate(-1deg); }
+    80% { transform: translate(-1px, -1px) rotate(1deg); }
+    90% { transform: translate(1px, 2px) rotate(0deg); }
+    100% { transform: translate(1px, -2px) rotate(-1deg); }
+  }

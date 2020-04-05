@@ -8,29 +8,35 @@
 </head>
 
 <body>
-    <nav class="menu">
-        <ul class="ul-menu">
-            <a href="#creation" class="acreation">
-                <li class="onglet menu-anim">Création</li>
-            </a>
-            <a href="#presentation" class="apresentation">
-                <li class="onglet menu-anim">Présentation</li>
-            </a>
-            <a href="#protagonistes" class="aprotagoniste">
-                <li class="onglet menu-anim">Protagonistes</li>
-            </a>
-            <a href="#sites" class="asites">
-                <li class="onglet menu-anim">Sites</li>
-            </a>
-            <a href="mention.html" class="amention" target="_blank">
-                <li class="onglet menu-anim">Mentions légales</li>
-            </a>
-            <a href="construct.html" class="aconstruct" target="_blank">
-                <li class="onglet menu-anim">Contact</li>
-            </a>
-        </ul>
-    </nav>
-    <div class="menu-act opacity">
+
+    <div id="IDSidenav" class="sidenav">
+        <a href="javascript:void(0)" class="croix">&times;</a>
+        <a href="#creation">Création</a>
+        <hr class="line-menu">
+        <a href="#presentation">Présentation</a>
+        <hr class="line-menu">
+        <div class="menu-deroulant">
+            <a href="#protagonistes">Protagonistes</a>
+            <div class="deroule-contenu">
+                <a href="#">Jonathan</a>
+                <a href="#">Joseph</a>
+                <a href="#">Jotaro</a>
+                <a href="#">Josuke</a>
+                <a href="#">Giorno</a>
+                <a href="#">Jolyne</a>
+                <a href="#">Johnny</a>
+                <a href="#">Josefumi</a>
+            </div>
+        </div>
+        <hr class="line-menu">
+        <a href="#sites">Sites</a>
+        <hr class="line-menu">
+        <a href="mention.html" target="_blank">Mentions légales</a>
+        <hr class="line-menu">
+
+    </div>
+
+    <div class="menu-act" id="opacity">
         <div class="triangle"></div>
         <!--creation dun triangle avec propriete css-->
     </div>

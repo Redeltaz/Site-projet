@@ -1,0 +1,39 @@
+body {
+    background-image:url(fond.png);
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+#space{
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+    width: 70%;
+    
+}
+
+.attention{
+    text-align: center;
+    text-decoration: underline;
+    margin-top: 80px;
+    padding-top: 50px; 
+}
+
+.attention2{
+    text-align: center;
+    margin-top: 80px;
+}
+
+.chantier{
+    position: relative;
+    left: 70px;
+    bottom: 100px;
+}
+
+@media screen and (max-width: 1300px) {
+    .chantier{
+        position: static;
+        margin-left: 170px;
+    }
+}

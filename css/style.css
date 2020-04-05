@@ -1,0 +1,394 @@
+/*les photo a redimensionner via photoshop pour eviter pb pixel*/
+
+body {
+    background-image:url(../img/fond.png);
+    background-attachment: fixed;
+    background-size: cover;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.opacity:hover{
+    opacity: 0.9;
+}
+
+.menu{
+    position: fixed;
+    top;0px;
+    width: 100%;
+    background-color: #e5e5e5;
+    height: 100px;
+    display: none;
+    border-radius: 10px;
+}
+
+.menu2{
+    position: fixed;
+    top; 0px;
+    width: 100%;
+    background-color: #e5e5e5;
+    height: 102px;
+    display: flex;
+    border-radius: 10px;
+    top: -15px;
+    z-index: 1;
+}
+
+.onglet{
+    position: relative;
+    left: 8%;
+    display: inline-flex;
+    list-style: none;
+    font-size: 2em;
+    margin-right: 30px;
+    margin-left: 25px;
+    margin-top: 25px;
+}
+
+.menu-act{
+    position: fixed;
+    top: 5px;
+    left: 5px;
+    background-color: white;
+    height: 36px;
+    width: 36px;
+    border-radius: 10px;
+}
+
+.menu-act2{
+    display: flex;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    background-color: #e5e5e5;
+    height: 12%;
+    width: 6%;
+    border-radius: 10px;
+    z-index: 2;
+}
+
+.triangle {
+    position: absolute;
+    top: 10px;
+    left: 6px;
+    width: 0;
+    height: 0;
+    border-left: 12px solid transparent;
+    border-right: 12px solid transparent;
+    border-top: 20px solid #8e8e8e;
+}
+
+.triangle2 {
+    width: 0;
+    height: 0;
+    border-left: 18px solid transparent;
+    border-right: 18px solid transparent;
+    border-top: 30px solid #8e8e8e;
+    margin: auto;
+    margin-top: 30px;
+    transform: rotate(180deg);
+}
+
+#title{
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+    width: 70%;
+    height: 150px;
+    margin-top: 75px;
+    margin-bottom: 100px;
+    
+}
+
+#space{
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+    width: 70%;
+    
+}
+
+.title-block{
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #8e8e8e;
+    width: 90%;
+    height: 60%;
+    position: relative;
+    top: 30px;
+
+}
+
+.txt-title{
+    text-align: center;
+    font-size: 3.2em;
+    position: relative;
+    top: 15px;
+    letter-spacing: 10px;
+}
+
+.underline-title{
+    background-color: black;
+    position: relative;
+    bottom: 36px;
+    border: 1px solid black;
+    width: 45%;
+}
+
+.creation-title{
+    text-align: center;
+    padding-top: 120px;
+    text-decoration: underline;
+    font-size: 3em;
+}
+
+.araki{ 
+    float: left;
+    margin: -9% -2% -9% -2%;
+}
+
+.creation-txt{
+    font-size: 1.5em;
+    margin-top: 10%;
+    margin-right: 5%;
+    margin-left: 5%;
+}
+
+.line{
+    margin-top: 100px;
+    background-color: #8e8e8e;
+    border: 1px solid #8e8e8e;
+    width: 85%;
+    opacity: 0.5;
+}
+
+.presentation-title{
+    text-align: center;
+    padding-top: 50px;
+    text-decoration: underline;
+    font-size: 3em;
+}
+
+#family{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width : 90%;
+    height: auto;
+}
+
+.presentation-txt{
+    font-size: 1.5em;
+    text-align: center;
+    margin-top: 5%;
+    margin-right: 5%;
+    margin-left: 5%;
+}
+
+.container-portagoniste{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.figure-protagoniste{
+    flex:1 1 10%;
+}
+
+.protagoniste-title{
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 60px;
+    text-decoration: underline;
+    font-size: 3em;
+}
+
+.protagoniste-img{
+    margin-left: 8%;
+    margin-right: 5%;
+    margin-bottom: 10%;
+}
+
+.protagoniste-img:hover{
+    transform: scale(1.1);
+}
+
+.figcaption-protagoniste{
+    margin-left: 45px;
+    margin-top: -20px;
+    text-decoration: underline;
+    font-size: 1.5em;
+}
+
+.sites-title{
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 60px;
+    text-decoration: underline;
+    font-size: 3em;
+}
+
+.crunchyroll{
+    position: relative;
+    top: -40px;
+    right: 100px;
+    float: right;
+    max-width : 100%;
+    height: auto;
+}
+
+.crunchyroll:hover{
+    transform: scale(1.1);
+}
+
+.site-txt-anime{
+    font-size: 1.5em;
+    text-decoration: underline;
+    margin-left: 15%;
+    margin-top: 5%;
+}
+
+.stairway{
+    float: right;
+    position: relative;
+    max-width : 100%;
+    height: auto;
+    right: 90px;
+    top: -30px;
+}
+
+.stairway:hover{
+    transform: scale(1.1);
+}
+
+.site-txt-manga{
+    font-size: 1.5em;
+    text-decoration: underline;
+    margin-left: 15%;
+    margin-top: 5%;
+}
+
+.bloc-fin{
+    background-color: #4b4b4b;
+    height: 140px;
+    padding-top: 15px;
+}
+
+.txt-fin{
+    text-align: center;
+    font-size: 1.5em;
+    letter-spacing: 3px;
+}
+
+.line-fin{
+    background-color: black;
+    border: 1px solid black;
+}
+
+.txt-fin-fin{
+    text-align: center;
+    font-size: 1em;
+    margin-top: -3px;
+}
+
+.acreation {
+    color: black;
+	text-decoration: none;
+}
+
+.apresentation {
+    color: black;
+	text-decoration: none;
+}
+
+.aprotagoniste {
+    color: black;
+	text-decoration: none;
+}
+
+.asites {
+    color: black;
+	text-decoration: none;
+}
+
+.amention {
+    color: black;
+	text-decoration: none;
+}
+
+.aconstruct {
+    color: black;
+	text-decoration: none;
+}
+
+.slider {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+
+.dodo1 {
+    margin-left: 7%;
+    max-width : 100%;
+    height: auto;
+}
+
+.dodo1:hover{
+    transform: rotate(10deg);
+}
+
+.dodo2 {
+    margin-right: 7%;
+    max-width : 100%;
+    height: auto;
+}
+
+.dodo2:hover{
+    transform: rotate(-10deg);
+}
+
+@media screen and (min-width:768px) {
+  .menu-act{
+    height: 60px;
+    width: 60px;
+  }
+  .triangle{
+    top: 18px;
+    left: 13px;
+    border-left: 18px solid transparent;
+    border-right: 18px solid transparent;
+    border-top: 30px solid #8e8e8e;
+  }
+}
+
+@media screen and (max-width: 740px){
+    #space, #title{
+        width: 100%;
+    }
+    .araki{
+        float: none;
+    }
+}
+
+@media screen and (max-width: 1300px) {
+    .crunchyroll, .stairway{
+        position: static;
+        margin-right: 40px;
+    }
+    .menu2{
+        height: 200px;
+    }
+}
+
+@media screen and (max-width: 640px){
+    
+    .ongletMobile{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .menu2{
+        height: 420px;
+    }
+}

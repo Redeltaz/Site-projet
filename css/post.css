@@ -1,0 +1,88 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+    background-image: url(../img/fond-forum.jpg);
+}
+
+.content{
+    width: 60%;
+    margin: 0 auto;
+    background-color: white;
+    padding-bottom: 40px;
+    padding-top: 20px;
+    margin-top: 80px;
+}
+
+.forum{
+    text-align: center;
+    text-decoration: underline;
+    font-size: 2em;
+}
+
+.poste{
+    width: 90%;
+    margin: 0 auto;
+    border: 1px solid lightgray;
+    padding-top: 25px;
+    border-radius: 5px;
+}
+
+.email{
+    float: right;
+    margin-right: 20%;
+}
+
+.nom {
+    text-align: center;
+}
+
+.text{
+    display: block;
+    margin : auto;
+    width: 95%;
+    height: 150px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    resize: none;
+}
+
+.add{
+    display: block;
+    margin : auto;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    border-radius: 20px;
+    padding: 5px 10px 5px 10px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.lien{
+    text-decoration: underline;
+}
+
+.echoLien{
+    margin-left: 20px;
+}
+
+.connect{
+    font-size: 1.5em;
+    text-align: center;
+}
+
+.connect a{
+    color: black;
+    text-decoration: underline;
+}
+
+#fileToUpload{
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
+
+.img{
+    text-align: center;
+}

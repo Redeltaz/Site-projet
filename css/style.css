@@ -34,6 +34,42 @@ body {
     opacity: 1;
 }
 
+.connect {
+    z-index: 1;
+    position: fixed;
+    top: 5px;
+    right: 20px;
+    background-color: white;
+    border-radius: 10px;
+    border: 2px solid #8e8e8e;
+    float: right;
+    padding: 10px;
+}
+
+.connect a {
+    text-decoration: none;
+    color: grey;
+    font-size: 1.2em;
+}
+
+.admin {
+    z-index: 1;
+    position: fixed;
+    top: 60px;
+    right: 20px;
+    background-color: white;
+    border-radius: 10px;
+    border: 2px solid #8e8e8e;
+    float: right;
+    padding: 10px;
+}
+
+.admin a {
+    text-decoration: none;
+    color: grey;
+    font-size: 1.2em;
+}
+
 .opacity:hover {
     opacity: 0.9;
 }
@@ -498,29 +534,6 @@ body {
     cursor: pointer;
 }
 
-.contact-contenu {
-    background-color: #fefefe;
-    margin: auto;
-    padding: 20px;
-    border: 5px solid #888;
-    border-radius: 20px;
-    width: 80%;
-}
-
-.close2 {
-    color: #000000;
-    float: right;
-    font-size: 28px;
-    font-weight: bold;
-}
-
-.close2:hover {
-    color: #000;
-    text-decoration: none;
-    cursor: pointer;
-    transform: scale(1.2);
-}
-
 .projet {
     text-align: center;
 }
@@ -530,42 +543,9 @@ body {
     text-align: center;
 }
 
-.formulaire {
-    display: block;
-    text-align: center;
-}
-
 .email,
 .name {
     width: 20%;
-}
-
-.msg {
-    width: 90%;
-    padding-bottom: 200px;
-}
-
-.envoi {
-    margin-left: auto;
-    margin-right: auto;
-    background-color: #888;
-    width: 130px;
-    height: 60px;
-    border-radius: 10px;
-}
-
-.envoi:hover {
-    background-color: rgb(73, 73, 73);
-    cursor: pointer;
-}
-
-.envoi p {
-    text-align: center;
-    color: white;
-    font-size: 20px;
-    position: relative;
-    top: 17px;
-
 }
 
 @-webkit-keyframes fade {

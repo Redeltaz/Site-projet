@@ -50,7 +50,7 @@ $(".croix").click(function () {
 
 /*-------------------------------scroll-background---------------------------------*/
 
-const Fond = {
+const Fond = { //on cree un objet qui contient 2 array et 2 fonctions pour s occuper de l animation des image du fond
     imgFond: [
         "Jonathan.png",
         "Joseph.png",
@@ -111,36 +111,5 @@ $(".close").click(function () {
 window.onclick = function (event) {
     if (event.target == mentionBlock) {
         mentionBlock.style.display = "none";
-    }
-}
-
-/*-------------------------------blok-contact-------------------------------------*/
-
-var contactBlock = document.getElementById("change-js2");
-
-
-$(".contact").click(function () {
-    contactBlock.style.display = "block";
-});
-
-$(".close2").click(function () {
-    contactBlock.style.display = "none";
-});
-
-window.onclick = function (event) {
-    if (event.target == contactBlock) {
-        contactBlock.style.display = "none";
-    }
-};
-
-function verif() {
-    var valueName = document.getElementsByClassName('name')[0].value;
-    var valueEmail = document.getElementsByClassName('email')[0].value;
-    var valueMsg = document.getElementsByClassName('msg')[0].value;
-
-    if (valueName != "" && valueEmail != "" && valueMsg != "") {
-        alert("Votre message sera reçu et lu dans les plus bref délais.");
-    } else {
-        alert("Tous les champs ne sont pas remplis");
     }
 }

@@ -1,0 +1,49 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+    background-image: url(../img/fond-forum.jpg);
+}
+
+.content{
+    width: 60%;
+    margin: 0 auto;
+    background-color: white;
+    padding-bottom: 40px;
+    padding-top: 20px;
+    margin-top: 140px;
+}
+
+h1{
+    text-align: center;
+    text-decoration: underline;
+}
+
+input{
+    display: block;
+    margin: 0 auto;
+}
+
+button{
+    display: block;
+    margin: 0 auto;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.lien{
+    text-decoration: underline;
+}
+
+.echoLien{
+    margin-left: 20px;
+}
+
+.deconnect{
+    text-align: center;
+}
+
+.deconnectLink{
+    text-decoration: underline;
+}
